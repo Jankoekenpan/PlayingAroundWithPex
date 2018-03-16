@@ -40,4 +40,8 @@ using System.Runtime.InteropServices;
 [assembly: InternalsVisibleTo("ConsoleApp2.Tests2")]
 [assembly: InternalsVisibleTo("Program.Tests")]
 [assembly: InternalsVisibleTo("Program.Tests1")]
+[assembly: InternalsVisibleTo("Program.Tests2")]
+[assembly: InternalsVisibleTo("Program.Tests3")]
+[assembly: InternalsVisibleTo("Program.Tests4")]
+[assembly: InternalsVisibleTo("Program.Tests5")]
 

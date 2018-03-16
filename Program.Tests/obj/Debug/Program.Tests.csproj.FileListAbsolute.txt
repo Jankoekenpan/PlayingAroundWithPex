@@ -1,0 +1,15 @@
+C:\Users\Test\source\repos\ConsoleApp2\Program.Tests\bin\Debug\Program.Tests.dll
+C:\Users\Test\source\repos\ConsoleApp2\Program.Tests\bin\Debug\Program.Tests.pdb
+C:\Users\Test\source\repos\ConsoleApp2\Program.Tests\bin\Debug\Microsoft.Pex.Framework.dll
+C:\Users\Test\source\repos\ConsoleApp2\Program.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Test\source\repos\ConsoleApp2\Program.Tests\bin\Debug\PlayingWithIntelliTest.exe
+C:\Users\Test\source\repos\ConsoleApp2\Program.Tests\bin\Debug\Microsoft.ExtendedReflection.Reasoning.dll
+C:\Users\Test\source\repos\ConsoleApp2\Program.Tests\bin\Debug\Microsoft.ExtendedReflection.dll
+C:\Users\Test\source\repos\ConsoleApp2\Program.Tests\bin\Debug\PlayingWithIntelliTest.pdb
+C:\Users\Test\source\repos\ConsoleApp2\Program.Tests\bin\Debug\PlayingWithIntelliTest.exe.config
+C:\Users\Test\source\repos\ConsoleApp2\Program.Tests\bin\Debug\Microsoft.Pex.Framework.xml
+C:\Users\Test\source\repos\ConsoleApp2\Program.Tests\obj\Debug\Program.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Test\source\repos\ConsoleApp2\Program.Tests\obj\Debug\Program.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Test\source\repos\ConsoleApp2\Program.Tests\obj\Debug\Program.Tests.csproj.CopyComplete
+C:\Users\Test\source\repos\ConsoleApp2\Program.Tests\obj\Debug\Program.Tests.dll
+C:\Users\Test\source\repos\ConsoleApp2\Program.Tests\obj\Debug\Program.Tests.pdb
