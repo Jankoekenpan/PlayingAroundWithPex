@@ -3,52 +3,34 @@ using System.Diagnostics.Contracts;
 
 namespace ConsoleApp2
 {
-    public class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine(new HelloWorld().GetHelloWorld());
-        }
-
-
-        public static int Add(int x, int y)
-        {
-            return x + y;
-        }
-    }
 
     public class Foo
     {
-        public String Bar(int lol)
+        public bool MyMethod(bool p, bool q, bool r)
         {
-            return new HelloWorld().GetHelloWorld();
+            if (!p)
+            {
+                if (q || r)
+                {
+                    q = !r;
+                }
+                else
+                {
+                    q = !q;
+                }
+            }
+
+            return q;
         }
     }
 
     public class Bar
     {
-        public String Foo(Foo iksDee, bool b, bool c)
+        public int stringLength(string s)
         {
-            if (b)
-            {
-
-            }
-            if (c)
-            {
-
-            }
-            return iksDee.Bar(0);
+            return s.Length;
         }
     }
-
-    public class HelloWorld
-    {
-        public virtual String GetHelloWorld()
-        {
-            return "Hello, World!";
-        }
-    }
-
 
     public class Triangle
     {
@@ -64,8 +46,8 @@ namespace ConsoleApp2
         
         public TriangleType getTriangleType()
         {
-            if (x <= 0 || y <= 0 || z <= 0) return TriangleType.INVALID;
-            if (x + y < z || z + x < y || y + z < x) return TriangleType.INVALID;
+            if (x <= 0 || y <= 0 || z <= 0) return TriangleType.NONPOSITIVE_INPUT;
+            if (x + y < z || z + x < y || y + z < x) return TriangleType.TRIANGLE_INEQUALITY;
             if (x == y && y == z) return TriangleType.EQUILITERAL;
             if (x == y || y == z || z == x) return TriangleType.ISOSCELES;
 
@@ -78,7 +60,8 @@ namespace ConsoleApp2
         SCALENE,
         ISOSCELES,
         EQUILITERAL,
-        INVALID,
+        NONPOSITIVE_INPUT,
+        TRIANGLE_INEQUALITY,
     }
 
     public class InterfaceConsumer
