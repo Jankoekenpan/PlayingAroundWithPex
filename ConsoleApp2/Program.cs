@@ -4,6 +4,14 @@ using System.Diagnostics.Contracts;
 namespace ConsoleApp2
 {
 
+    public class Program
+    {
+        public static void Main(String[] args)
+        {
+            Console.WriteLine("Hello, World!");
+        }
+    }
+
     public class Foo
     {
         public bool MyMethod(bool p, bool q, bool r)
@@ -64,6 +72,22 @@ namespace ConsoleApp2
         TRIANGLE_INEQUALITY,
     }
 
+    // ============ Cavia's ============
+
+    public class WeekendNotifier
+    {
+        public bool IsWeekendNear()
+        {
+            DateTime date = DateTime.Now;
+            date.AddDays(2);
+            if (date.Day.Equals("Saturday"))
+            {
+                return true;
+            }
+            return false;
+        }
+    }
+
     public class InterfaceConsumer
     {
         public string DoSomethingWithMyInterface(MockMe mockMe)
@@ -89,18 +113,5 @@ namespace ConsoleApp2
         }
     }
 
-    public class WeekendNotifier
-    {
-        public bool IsWeekendNear()
-        {
-            DateTime date = DateTime.Now;
-            date.AddDays(2);
-            if (date.Day.Equals("Saturday"))
-            {
-                return true;
-            }
-            return false;
-        }
-    }
 
 }
